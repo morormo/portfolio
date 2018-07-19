@@ -3,9 +3,13 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html{
+	height: 100%;
+}
 body{
 	color: #333;
 	font: 18px 'Open Sans', Arial, sans-serif;
+	height: 100%
 }
 #omnie img {
 	width: 150px;
@@ -200,6 +204,9 @@ textarea{
 
 
 @media screen and (max-width: 800px){
+	.header{
+		height: 100%;
+	}
 	.nav ul{
 		height: 100%;
 		font-size: 14px;
@@ -214,6 +221,9 @@ textarea{
 	.header h1{
 		font-size: 35px;
 	}
+	.header{
+		height: 100%;
+	}
 }
 @media screen and (max-width: 300px){
 	.nav ul{
@@ -221,6 +231,9 @@ textarea{
 	}
 	.header h1{
 		font-size: 30px;
+	}
+	.header{
+		height: 100%;
 	}
 }
 
