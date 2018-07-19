@@ -23,7 +23,7 @@ body{
 }
 
 .header{
-	max-height: 200vh;
+	max-height: 600vh;
 	padding-top: 250px;
 	padding-bottom: 250px;
 	background: url(tlo.jpg) center/cover no-repeat;
