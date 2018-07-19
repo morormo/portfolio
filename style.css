@@ -23,7 +23,7 @@ body{
 }
 
 .header{
-	min-height: 100vh;
+	max-height: 100vh;
 	padding-top: 250px;
 	padding-bottom: 250px;
 	background: url(tlo.jpg) center/cover no-repeat;
@@ -43,6 +43,7 @@ body{
 	position: sticky;
 	top:0;
 	z-index: 1;
+
 	
 }
 
@@ -98,6 +99,9 @@ img{
 }
 .zdj > img{
 	padding: 30px;
+}
+.zdj img:hover{
+	transform: rotateY(20deg);
 }
 table{
 	margin: 0 auto;
@@ -194,19 +198,30 @@ textarea{
 
 }
 
-@media screen and (max-width: 1024px){
-	.container{
-		width: 100%;
+
+@media screen and (max-width: 800px){
+	.nav ul{
+		height: 100%;
+		font-size: 14px;
+
 	}
-	body{
-		color:red;
+	.header h1{
+		font-size: 42px;
 	}
-	.nav ul{ 
-		width: 100%;
-		margin: 10px 0px;
-		display:block;		
-			}
+	
 }
-.zdj img:hover{
-	transform: rotateX(30deg);
+@media screen and (max-width: 344px){
+	.header h1{
+		font-size: 35px;
+	}
 }
+@media screen and (max-width: 300px){
+	.nav ul{
+		font-size: 12px;
+	}
+	.header h1{
+		font-size: 30px;
+	}
+}
+
+

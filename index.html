@@ -7,25 +7,24 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="jquery.js"></script>
 	<link rel="Shortcut icon" href="ikonka.png" />
-		<script src="stickyfill.js"></script>
+	<script src="stickyfill.js"></script>	
 <script>
-			$('.nav').Stickyfill();
-
+		$('.nav').Stickyfill();
 			$(function() {
 			  $('a[href*="#"]:not([href="#"])').click(function() {
 			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 			      var target = $(this.hash);
 			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-			      if (target.length) {
+			      if (target.length){
 			        $('html,body').stop().animate({
-			          scrollTop: target.offset().top - 70
+			          scrollTop: target.offset().top - 65
 			        }, 1000);
 			        return false;
-			      }
-			    }
+			      };
+			    };
 			  });
 			});
-		</script>
+</script>
 
 </head>
 <body>
@@ -35,63 +34,52 @@
 			<p> Junior Front-End Developer</p>
 		</div>
 	</header>
-
-	<nav id="nav" class="nav">
+<nav id="nav" class="nav">
 		<div class="container">
 		<ul>
-			<li><a href="#home">Home</a></li>
-			<li><a href="#omnie">O mnie</a></li>
-			<li><a href="#umiejetnosci">Umiejetności</a></li>
-			<li><a href="#kontakt">Kontakt</a></li>
-		</ul>
-		</div>
-	</nav>
+		<li><a href="#home">Home</a></li>
+		<li><a href="#omnie">O mnie</a></li>
+		<li><a href="#umiejetnosci">Umiejetności</a></li>
+		<li><a href="#kontakt">Kontakt</a></li>
+	</ul>
+	</div>
+</nav>
 
-	<section class="section" id="omnie">
-		<div class="container">
+<section class="section" id="omnie">
+	<div class="container">
 		<h2>O Mnie!</h2>
-		<p>
-			Cześć! Jestem Daniel mam 20 lat i jestem absolwentem Technikum o profilu informatycznym.
-		</p>
-		<img src="zdj.jpg">
-		<p>
-			Jestem młodą, kreatywną oraz innowacyjną osobą. Tworzenie stron internetowych nie jest traktowane dla mnie jak praca, lecz jako przyjemność pozwalającą mi się rozwijać. 
- 		</p>
-
-		</div>
-	</section>
-	<section class="section" id="umiejetnosci">
-		<div class="container">
-		<h2>Umiejetności</h2>
+			<p>Cześć! Jestem Daniel mam 20 lat i jestem absolwentem Technikum o profilu informatycznym.</p>
+				<img src="zdj.jpg">
+			<p>Jestem młodą, kreatywną oraz innowacyjną osobą. Tworzenie stron internetowych nie jest traktowane dla mnie jak praca, lecz jako przyjemność pozwalającą mi się rozwijać.</p>
+	</div>
+</section>
+<section class="section" id="umiejetnosci">
+	<div class="container">
+			<h2>Umiejetności</h2>
 		<div class="zdj">
-			
 				<img src="img/html.png"><img src="img/css.png"><img src="img/javascript.png"><br>
 				<img src="img/bootstrap.png"><img src="img/jquery.gif">
-			
-		</div>
-			
-		</div>
-	</section>
-	<section class="section" id="kontakt">
-		<div class="container">
+		</div>		
+	</div>
+</section>
+<section class="section" id="kontakt">
+	<div class="container">
 		<h2>Skontaktuj się ze mną !</h2>
-<form action="form/send.php" method="post" id="contactform">
-    
-        <input type="text" name="contact_name" placeholder="Imię i nazwisko*" required="required" tabindex="1" />
-        <input type="email" name="contact_email" placeholder="Adres e-mail*" required="required" tabindex="2" />
-        <input type="text" name="contact_www" placeholder="Strona www" tabindex="3" />
-        <textarea rows="5" columns="10" name="contact_body" placeholder="Treść wiadomości" required="required" tabindex="4"></textarea>
-        * Wymagane pola</br>
-        <input type="reset" id="reset" value="Wyczyść"/>
-        <input type="submit" id="submit" value="Wyślij" tabindex="5" />
-        
-    
-</form>
-	</section>
-	<footer class="stopka">
-		Wszystkie prawa zastrzeżone &copy; Wykonał Daniel Stokłosa<br>
-		
-	</footer>
-
+		<form action="form/send.php" method="post" id="contactform">
+	        <input type="text" name="contact_name" placeholder="Imię i nazwisko*" required="required" tabindex="1" />
+	        <input type="email" name="contact_email" placeholder="Adres e-mail*" required="required" tabindex="2" />
+	        <input type="text" name="contact_www" placeholder="Strona www" tabindex="3" />
+	        <textarea rows="5" columns="10" name="contact_body" placeholder="Treść wiadomości" required="required" tabindex="4"></textarea>
+	        * Wymagane pola</br>
+	        <input type="reset" id="reset" value="Wyczyść"/>
+	        <input type="submit" id="submit" value="Wyślij" tabindex="5" />
+	        
+	    
+		</form>
+	</div>
+</section>
+<footer class="stopka">
+	Wszystkie prawa zastrzeżone &copy; Wykonał Daniel Stokłosa<br>	
+</footer>
 </body>
 </html>
