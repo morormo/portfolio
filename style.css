@@ -215,7 +215,7 @@ position: sticky;
 		font-size: 35px;
 	}
 	.header{
-		min-height: 200vh;
+		min-height: 100%;
 	}
 	.
 }
@@ -227,7 +227,7 @@ position: sticky;
 		font-size: 30px;
 	}
 	.header{
-		min-height: 200vh;
+		min-height: 100%;
 	}
 }
 @media all and (max-width: 400px){
@@ -238,7 +238,7 @@ position: sticky;
 		font-size: 30px;
 	}
 	.header{
-		min-height: 200vh;
+		min-height: 100%;
 	}
 }
 
