@@ -202,6 +202,9 @@ textarea{
 
 @media all and (max-width: 1024px)
 {
+.html{
+	height: 100%;
+}
 .header{
 	height: 100%;
 }
