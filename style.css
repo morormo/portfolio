@@ -3,7 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+html{min-height: 100%;}
 body{
 	color: #333;
 	font: 18px 'Open Sans', Arial, sans-serif;
