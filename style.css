@@ -202,7 +202,9 @@ textarea{
 
 @media all and (max-width: 1024px)
 {
-
+	.nav{
+		position: sticky;
+	}
 
 }
 
