@@ -213,7 +213,7 @@ textarea{
 		font-size: 42px;
 	}
 	.header{
-		min-height: 100vh;
+		min-height: 200vh;
 	}
 }
 @media screen and (max-width: 344px){
@@ -221,7 +221,7 @@ textarea{
 		font-size: 35px;
 	}
 	.header{
-		min-height: 100vh;
+		min-height: 200vh;
 	}
 }
 @media screen and (max-width: 300px){
@@ -232,7 +232,7 @@ textarea{
 		font-size: 30px;
 	}
 	.header{
-		min-height: 100vh;
+		min-height: 200vh;
 	}
 }
 
