@@ -7,6 +7,7 @@
 body{
 	color: #333;
 	font: 18px 'Open Sans', Arial, sans-serif;
+	height: 100%;
 	
 }
 #omnie img {
@@ -200,9 +201,6 @@ textarea{
 
 @media all and (max-width: 1024px)
 {
-body{
-	color:red;
-}
 .nav{
 position: sticky;
 }
