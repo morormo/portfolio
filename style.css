@@ -3,9 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-html{
-	height: 100%;
-}
+
 body{
 	color: #333;
 	font: 18px 'Open Sans', Arial, sans-serif;
@@ -33,7 +31,7 @@ body{
 	background: url(tlo.jpg) center/cover no-repeat;
 	color:white;
 	text-align: center;
-	text-shadow: 0 0 15px rgba(0, 0, 0, .3)
+	text-shadow: 0 0 15px rgba(0, 0, 0, .3);
 }
 
 .header h1{
@@ -120,7 +118,7 @@ td{
  input{
   	display: block;
   	margin: 0 auto;	
-  	color:#46494f
+  	color:#46494f;
   }
 textarea{
   	display: block;
