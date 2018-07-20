@@ -202,6 +202,9 @@ textarea{
 
 @media all and (max-width: 1024px)
 {
+.header{
+	height: 100%;
+}
 	.nav{
 		position: sticky;
 	}
