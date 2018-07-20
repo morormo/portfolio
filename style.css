@@ -3,13 +3,11 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-html{
-	height: 100%;
-}
+
 body{
 	color: #333;
 	font: 18px 'Open Sans', Arial, sans-serif;
-	height: 100%
+	
 }
 #omnie img {
 	width: 150px;
@@ -204,10 +202,6 @@ textarea{
 
 @media all and (max-width: 1024px)
 {
-.header{
-	max-height: 100%;
-	height: auto;
-}
 body{
 	color:red;
 }
