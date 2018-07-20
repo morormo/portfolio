@@ -3,7 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+html{
+	height: 100%;
+}
 body{
 	color: #333;
 	font: 18px 'Open Sans', Arial, sans-serif;
@@ -202,15 +204,9 @@ textarea{
 
 @media all and (max-width: 1024px)
 {
-.html{
-	height: 100%;
-}
 .header{
 	height: 100%;
 }
-	.nav{
-		position: sticky;
-	}
 
 }
 
