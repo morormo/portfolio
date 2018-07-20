@@ -209,8 +209,8 @@ position: sticky;
 
 }
 
-/*
-@media screen and (max-width: 344px){
+
+@media all and (max-width: 344px){
 	.header h1{
 		font-size: 35px;
 	}
@@ -219,7 +219,7 @@ position: sticky;
 	}
 	.
 }
-@media screen and (max-width: 300px){
+@media all and (max-width: 300px){
 	.nav ul{
 		font-size: 12px;
 	}
@@ -229,6 +229,5 @@ position: sticky;
 	.header{
 		min-height: 200vh;
 	}
-}
-*/
+}*/
 
