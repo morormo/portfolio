@@ -215,7 +215,11 @@ textarea{
 	.header{
 		min-height: 200vh;
 	}
+	body{
+		color:red;
+	}
 }
+/*
 @media screen and (max-width: 344px){
 	.header h1{
 		font-size: 35px;
@@ -223,6 +227,7 @@ textarea{
 	.header{
 		min-height: 200vh;
 	}
+	.
 }
 @media screen and (max-width: 300px){
 	.nav ul{
@@ -235,5 +240,5 @@ textarea{
 		min-height: 200vh;
 	}
 }
-
+*/
 
