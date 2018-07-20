@@ -205,7 +205,7 @@ textarea{
 @media all and (max-width: 1024px)
 {
 .header{
-	max-height: 100vh;
+	max-height: 640px;
 	height: auto;
 }
 
