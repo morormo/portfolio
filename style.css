@@ -33,7 +33,7 @@ body{
 	background: url(tlo.jpg) center/cover no-repeat;
 	color:white;
 	text-align: center;
-	text-shadow: 0 0 15px rgba(0, 0, 0, .3);
+	text-shadow: 0 0 15px rgba(0, 0, 0, .3)
 }
 
 .header h1{
@@ -120,7 +120,7 @@ td{
  input{
   	display: block;
   	margin: 0 auto;	
-  	color:#46494f;
+  	color:#46494f
   }
 textarea{
   	display: block;
@@ -205,7 +205,8 @@ textarea{
 @media all and (max-width: 1024px)
 {
 .header{
-	height: 100%;
+	max-height: 100%;
+	height: auto;
 }
 
 }
