@@ -206,6 +206,9 @@ body{
 .nav{
 position: sticky;
 }
+.header{
+	height: 100%;
+}
 
 }
 
