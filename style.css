@@ -204,8 +204,11 @@ textarea{
 
 @media all and (max-width: 1024px)
 {
- body{color:red;}
-  }
+.header{
+	max-height: 100vh;
+	height: auto;
+}
+
 }
 
 /*
