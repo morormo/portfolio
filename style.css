@@ -44,9 +44,7 @@ body{
 	background: rgb(192,192,192);
 	position: sticky;
 	top:0;
-	z-index: 1;
-
-	
+	z-index: 1;	
 }
 
 .nav ul{
@@ -204,6 +202,9 @@ textarea{
 {
 body{
 	color:red;
+}
+.nav{
+position: sticky;
 }
 
 }
