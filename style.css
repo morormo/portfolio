@@ -204,9 +204,6 @@ textarea{
 
 
 @media screen and (max-width: 800px){
-	.header{
-		height: 100%;
-	}
 	.nav ul{
 		height: 100%;
 		font-size: 14px;
@@ -215,14 +212,13 @@ textarea{
 	.header h1{
 		font-size: 42px;
 	}
-	
+	.header{
+		min-height: 200px;
+	}
 }
 @media screen and (max-width: 344px){
 	.header h1{
 		font-size: 35px;
-	}
-	.header{
-		height: 100%;
 	}
 }
 @media screen and (max-width: 300px){
@@ -231,9 +227,6 @@ textarea{
 	}
 	.header h1{
 		font-size: 30px;
-	}
-	.header{
-		height: 100%;
 	}
 }
 
