@@ -177,19 +177,26 @@ box-shadow:0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 @media all and (max-width: 1024px){
 .nav{position: sticky;}
-
+.header{height: 100%;}
 }
 @media all and (max-width: 344px){
 .header h1{	font-size: 35px;}
-
+.header{min-height: 100%;}
 }
 @media all and (max-width: 300px){
 .nav ul{font-size: 12px;}
 .header h1{font-size: 30px;}
-
+.header{min-height: 100%;}
 }
 @media all and (max-width: 400px){
 .nav ul{font-size: 14px;}
 .header h1{font-size: 30px;}
+.header{min-height: 100%;}
+}
+.hide{
+	opacity:0
+}
 
+.show {
+	opacity: 1;
 }

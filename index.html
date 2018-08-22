@@ -26,11 +26,12 @@
 		});
 	});
 </script>
+<link rel="stylesheet" href="animate.css" type="text/css">
 
 </head>
 <body>
 <header id="home" class="header">
-	<div class="container">
+	<div class="container" data-animate="bounceInUp">
 		<h1> Daniel Stokłosa</h1>
 		<p> Junior Front-End Developer</p>
 	</div>
@@ -46,7 +47,7 @@
 	</div>
 </nav>
 
-<section class="section" id="omnie">
+<section class="section" id="omnie" data-animate="fadeInDown">
 	<div class="container">
 		<h2>O Mnie!</h2>
 			<p>Cześć! Jestem Daniel mam 20 lat i jestem absolwentem Technikum o profilu informatycznym.</p>
@@ -54,7 +55,7 @@
 			<p>Jestem młodą, kreatywną oraz innowacyjną osobą. Tworzenie stron internetowych nie jest traktowane dla mnie jak praca, lecz jako przyjemność pozwalającą mi się rozwijać.</p>
 	</div>
 </section>
-<section class="section" id="umiejetnosci">
+<section class="section" id="umiejetnosci" data-animate="fadeInUp">
 	<div class="container">
 			<h2>Umiejetności</h2>
 		<div class="zdj">
@@ -63,7 +64,7 @@
 		</div>		
 	</div>
 </section>
-<section class="section" id="kontakt">
+<section class="section" id="kontakt" data-animate="fadeInRight">
 	<div class="container">
 		<h2>Skontaktuj się ze mną !</h2>
 		<form action="form/send.php" method="post" id="contactform">
@@ -82,5 +83,21 @@
 <footer class="stopka">
 	Wszystkie prawa zastrzeżone &copy; Wykonał Daniel Stokłosa<br>	
 </footer>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="jquery.viewportchecker.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+
+		$('*[data-animate]').addClass('hide').each(function(){
+      $(this).viewportChecker({
+        classToAdd: 'show animated ' + $(this).data('animate'),
+        classToRemove: 'hide',
+        offset: '30%'
+      });
+    });
+
+	});
+</script>
 </body>
 </html>
